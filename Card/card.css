@@ -1,0 +1,110 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 60vh;
+    height: 90vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header {
+    padding: 10px;
+}
+#cover {
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.profile {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    #profile {
+        position: absolute;
+        top: -60px;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+.Name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.me {
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 60px;
+    p {
+        justify-self: center;
+        margin-top: -10px;
+    }
+    p:nth-child(3) {
+        font-weight: bold;
+        padding-top: 10px;
+    }
+}
+.follow {
+    background-color: #F1F1F1;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    margin: 20px 65px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number, .love {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.love {
+    text-align: center;
+    color: rgb(134, 134, 134);
+    font-size: 15px;
+}
+#lorem {
+    text-align: center;
+    font-size: 13px;
+    margin: 0px 65px;
+    /* padding: 0px 65px; */
+}
+.view {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+button {
+    border-style: none;
+    border-radius: 10px;
+    background-color: #e1e0e0;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    font-size: 12px;
+}
+button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+img {
+    width: 30px;
+}

@@ -1,0 +1,23 @@
+/* TODO */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button {
+    border: 7px solid rgb(255, 160, 160);
+    border-radius: 20px;
+    background-color: rgb(255, 75, 105);
+    color: white;
+    padding: 30px 50px;
+    font-size: 25px;
+}
+button:hover {
+    transition: 0.3s;
+    background-color: rgb(158, 0, 26);
+    border: 7px solid rgb(255, 202, 202);
+    padding: 35px 55px;
+}
